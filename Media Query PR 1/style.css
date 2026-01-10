@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  height: 98vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.banner p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 1.4;
+  width: 75%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* z-index: 10; */
+  background-color: transparent;
+}
+
+.navbar img {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 3%;
+  float: right;
+  margin-top: 1%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.location-title {
+  text-align: center;
+  margin-top: 0;
+}
+
+.location-title h2 {
+  font-size: 3rem;
+  font-weight: 650;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.location-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-content {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  filter: brightness(95%);
+  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.col-content img {
+  margin-bottom: 40px;
+  height: 500px;
+  border-radius: 27px;
+  width: 100%;
+}
+
+.col-content h5 {
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  left: 20px;
+  bottom: 105px;
+}
+
+.col-content p {
+  /* margin-top: 20px; */
+  position: absolute;
+  font-size: 15px;
+  /* font-weight: 100; */
+  color: white;
+  left: 20px;
+  bottom: 85px;
+}
+
+.col-content:hover {
+  filter: brightness(120%);
+  transform: scale(1.05);
+}
+
+.sec {
+  background-color: #f8f6f2;
+  padding: 80px 0;
+}
+
+.hero {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.hiking {
+  width: 45%;
+  object-fit: cover;
+  margin-left: 5%;
+  border-radius: 15px;
+}
+
+.content {
+  width: 45%;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 3%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.para {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #444444;
+  margin-top: 40px;
+  margin-left: 3%;
+  max-width: 420px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.view {
+  background-color: #cf6f5a;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  margin-left: 3%;
+  padding: 16px 40px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  height: 6vh;
+  width: 10vw;
+}
+
+.view:hover {
+  background-color: #b85f4d;
+}
+
+/* no.2 */
+
+.sec2 {
+  background-color: #f8f6f2;
+  padding-top: 120px;
+}
+
+.hero2 {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 80px;
+}
+
+.hiking2 {
+  width: 45%;
+  object-fit: cover;
+  margin-right: 5%;
+  border-radius: 15px;
+}
+
+.content2 {
+  width: 45%;
+}
+
+.hero2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 3%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.para2 {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #444444;
+  margin-top: 40px;
+  /* margin-right: 3%; */
+  margin-left: 1%;
+  max-width: 420px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.view2 {
+  background-color: #cf6f5a;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  /* margin-right:3% ; */
+  margin-left: 1%;
+  padding: 16px 40px;
+  font-size: 1rem;
+  height: 6vh;
+  width: 10vw;
+  letter-spacing: 2px;
+}
+
+.view2:hover {
+  background-color: #b85f4d;
+}
+
+.footer-area {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+}
+
+.h4 {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ft-col ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.ft-col ul li {
+  margin-top: 3%;
+  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+#insta {
+  color: rgb(255, 12, 105);
+}
+
+#face {
+  color: rgb(0, 110, 255);
+}
+
+#yt {
+  color: red;
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    gap: 30px;
+  }
+
+  .hiking {
+    height: 50vh;
+  }
+  .content h2 {
+    font-size: 3rem;
+  }
+
+  .view {
+    width: 30vw;
+  }
+
+  .hiking2 {
+    height: 50vh;
+  }
+  .content2 h2 {
+    font-size: 3rem;
+  }
+
+  .view2 {
+    width: 30vw;
+  }
+}
+
+@media(max-width:768px){
+  .banner p{
+    font-size: 2rem;
+  }
+
+  .hiking{
+    height: 60vh;
+  }
+
+  .hiking2{
+    height: 80vh;
+  }
+
+  .content2{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .ft-col{
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .navbar .a {
+    display: none;
+  }
+
+  .banner p {
+    font-size: 1.6rem;
+    width: 90%;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hiking {
+    width: 90%;
+    margin: auto;
+  }
+
+  .content {
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero h2,
+  .para,
+  .view {
+    margin-left: 0;
+  }
+
+  .view {
+    width: 60%;
+  }
+
+  .hero2 {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hiking2 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .content2 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .view2 {
+    width: 60%;
+  }
+
+  .footer-top-box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .navbar .a {
+    display: none;
+  }
+
+  .banner p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+
+  .hero h2,
+  .content2 h2 {
+    font-size: 2.2rem;
+  }
+
+  .para,
+  .para2 {
+    font-size: 1.2rem;
+  }
+
+  .view,
+  .view2 {
+    width: 80%;
+    height: auto;
+    padding: 14px 20px;
+  }
+
+  .ft-col ul li {
+    font-size: 1.1rem;
+  }
+
+  .h4 {
+    font-size: 1.6rem;
+  }
+}
+
