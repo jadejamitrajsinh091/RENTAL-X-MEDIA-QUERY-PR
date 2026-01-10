@@ -1,6 +1,6 @@
 # RENTAL-X-MEDIA-QUERY-PR
 
-# 🏔️ RENTAL-X – Mountain Cabin & Adventure Website
+#<h1>🏔️ RENTAL-X – Mountain Cabin & Adventure Website</h1>
 
 RENTAL-X is a modern, visually rich **travel & cabin rental website** built using **HTML5 and CSS3**.  
 The design is inspired by nature and adventure, perfect for showcasing mountain cabins, hiking tours, and cycling trips.
@@ -15,9 +15,6 @@ The design is inspired by nature and adventure, perfect for showcasing mountain 
 ## 🖼️ Full Website Screenshot
 ![RENTAL-X Screenshot]
 <img width="1920" height="3425" alt="image" src="https://github.com/user-attachments/assets/c60f3148-4e64-48b7-b371-8625ecb2fd80" />
-
-
-*(GitHub repository માં screenshot upload કરીને link paste કરશો)*
 
 ---
 
@@ -93,6 +90,5 @@ Responsive breakpoints included:
 - 768px  
 - 576px  
 - 400px  
-
 ---
 
